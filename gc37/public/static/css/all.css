@@ -1,0 +1,108 @@
+.animation,
+.animation-layer {
+  height: 1000px;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation-layer {
+  background-position: bottom center;
+  background-size: auto 1040px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+.animation-layer.parallax {
+  position: fixed;
+}
+
+#background1 {
+  background-image: url("/static/svg/bg-img-1.svg");
+}
+#background2 {
+  background-image: url("/static/svg/bg-img-2.svg");
+}
+#background3 {
+  background-image: url("/static/svg/bg-img-3.svg");
+}
+#background4 {
+  background-image: url("/static/svg/bg-img-4.svg");
+}
+#background5 {
+  background-image: url("/static/svg/bg-img-5.svg");
+}
+
+.to-top {
+  position: fixed;
+  z-index: 9999999;
+  bottom: 2%;
+  right: 2%;
+  transition-duration: 0.4s;
+
+  @media screen and (max-width: 768px) {
+    bottom: 2%;
+    right: 2%;
+  }
+}
+
+.statgroup {
+  width: 70%;
+  margin: 3rem 0;
+  padding: 0 3rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  @media screen and (max-width: 800px) {
+    width: 80%;
+  }
+
+  h2 {
+    @media screen and (max-width: 800px) {
+      font-size: 3rem;
+    }
+  }
+
+  /* .points {
+    width: 100%;
+    margin: 0.2rem 0;
+
+    label {
+      font-size: 1.5rem;
+      font-weight: 400;
+      opacity: 0.5;
+      transition-duration: 0.6s;
+
+      &:hover {
+        opacity: 1;
+        font-size: 1.6rem;
+      }
+    }
+    progress {
+      width: 100%;
+      border-radius: 100px;
+      background-color: #111213;
+    }
+    progress::-webkit-progress-bar {
+      height: 5px;
+      background-color: #24282a;
+      border-radius: 100px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+    progress::-moz-progress-bar {
+      height: 5px;
+      background-color: #24282a;
+      border-radius: 100px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+    progress::-webkit-progress-value {
+      background-color: #00ff80;
+    }
+  } */
+}
