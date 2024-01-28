@@ -12,8 +12,9 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "sewage":"url('https://www.greenpeace.org.uk/wp-content/uploads/2022/09/sewage-outflow-scaled.jpeg')",
-        "news": "url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3BkbWlzYzEwLWJnLXNtaXRoc25ubWFocndzMjAxNTA2NjY0LWltYWdlLTAxLmpwZw.jpg')",
+        "sewage":
+          "url('https://www.greenpeace.org.uk/wp-content/uploads/2022/09/sewage-outflow-scaled.jpeg')",
+        "news": "url('https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706313600&semt=ais')",
       },
     },
   },
