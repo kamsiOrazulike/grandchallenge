@@ -14,8 +14,8 @@ const Overview = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="mt-6 text-xl leading-8 text-gray-400">
-                  <span className="text-sm text-yellow-400 uppercase">
-                    <FaCircle className="inline-block text-[8px] text-yellow-400 animate-pulse mr-2" />
+                  <span className="text-sm text-[#2c9891] uppercase">
+                    <FaCircle className="inline-block text-[8px] text-[#2c9891] animate-pulse mr-2" />
                     Location study:
                   </span>
                   <br /> London borough of Sutton <br />

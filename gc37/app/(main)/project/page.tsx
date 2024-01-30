@@ -132,7 +132,7 @@ export default function Genesis() {
       <Head>
         <title>Ripple Rescue</title>
       </Head>
-      <div className="bg-three bg-fixed bg-cover bg-no-repeat bg-center bg-4 dark:text-white text-black">
+      <div className="bg-two bg-fixed bg-cover bg-no-repeat bg-top bg-4 dark:text-white text-black">
         <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] pt-24 pb-18 mx-auto text-center flex flex-row justify-center align-middle">
           <h1
