@@ -11,7 +11,7 @@ const Overview = () => {
           <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
+                <p className="text-base font-semibold leading-7 text-[#2c9891]">
                   Our interactive artefact
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -46,6 +46,11 @@ const Overview = () => {
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
                   How it works
                 </h1>
+                <img
+                  className="w-[32rem] rounded-xl mt-8 mb-4"
+                  src="/static/imgs/interaction.jpeg"
+                  alt=""
+                />
                 <p className="text-gray-700 dark:text-gray-400">
                   <span className="text-white">One:</span> Ut enim ad minim
                   veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -110,7 +115,7 @@ const Overview = () => {
                 </div> */}
 
                 <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-red-500 hover:bg-red-500 transition-all duration mx-auto rounded-full"
+                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-text-[#2c9891] hover:bg-text-[#2c9891] transition-all duration mx-auto rounded-full"
                   href="https://genhrm.com/"
                   target="_blank"
                   rel="noreferrer"
