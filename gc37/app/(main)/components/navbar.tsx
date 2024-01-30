@@ -30,13 +30,13 @@ export default function Navbar() {
               </a>
             </li>
             <li className="px-4 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
-              <a href="/about" className="">
-                About us
+              <a href="/project" className="">
+                Our project
               </a>
             </li>
             <li className="px-4 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
               <a href="/join-us" className="">
-                Join us
+                Get in touch
               </a>
             </li>
           </ul>
@@ -45,10 +45,10 @@ export default function Navbar() {
           <div className="flex flex-row items-center justify-end">
             <div className="flex-row justify-between align-middle items-center">
               <a
-                href="/"
+                href="/project"
                 className="uppercase text-xl text-white bg-black px-4 py-3"
               >
-                About us
+                Our project
               </a>
             </div>
             <button
@@ -73,7 +73,7 @@ export default function Navbar() {
                     <a href="/news">News</a>
                   </li>
                   <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
-                    <a href="/join-us">Join us</a>
+                    <a href="">Get in touch</a>
                   </li>
                 </ul>
               </div>
