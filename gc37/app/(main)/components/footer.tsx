@@ -83,7 +83,10 @@ const Footer = () => {
               </a>
             </li>
             <li className="hover:text-white hover:cursor-pointer transition-all duration-150">
-              <a href="#" target="_blank">
+              <a
+                href="https://www.instagram.com/lockon_emanon?igsh=YzVkODRmOTdmMw=="
+                target="_blank"
+              >
                 Jieying Wen
               </a>
             </li>

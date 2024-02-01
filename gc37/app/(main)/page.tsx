@@ -51,15 +51,30 @@ const FishStall = () => {
             Fish shop
           </h2>
 
-          <p className="text-lg text-gray-500 font-semibold">
+          <p className="text-lg text-gray-500 font-semibold mb-4">
             We designed a quick way to set up stalls where the fish models we
             create will be set on display for others to interact with.
           </p>
         </div>
-        <div className="md:w-3/5">
+        <div className="md:w-3/5 relative">
+          <img
+            src={"./static/imgs/final/three.jpeg"}
+            className="w-full mt-32 border border-white rounded-md"
+            alt="fish"
+          />
+          <img
+            src={"./static/imgs/final/one.jpeg"}
+            className="absolute top-0 left-0 w-1/3"
+            alt="fish"
+          />
           <img
             src={"./static/imgs/final/four.jpeg"}
-            className="w-full my-8 border border-white rounded-md"
+            className="absolute top-0 left-1/3 w-1/3"
+            alt="fish"
+          />
+          <img
+            src={"./static/imgs/final/six.jpeg"}
+            className="absolute top-0 left-2/3 w-1/3"
             alt="fish"
           />
         </div>
@@ -207,7 +222,10 @@ const ShortClip = () => {
 const Home = () => {
   return (
     <>
-      <div id="top" className="flex items-center justify-center h-screen bg-four bg-cover bg-right md:bg-center bg-fixed bg-no-repeat">
+      <div
+        id="top"
+        className="flex items-center justify-center h-screen bg-four bg-cover bg-right md:bg-center bg-fixed bg-no-repeat"
+      >
         <div className="lg:max-w-lg text-center">
           <p className="text-base font-bold leading-7 text-gray-300">
             Grand Challenge 23/24 - Group 37
