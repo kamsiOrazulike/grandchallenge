@@ -1,5 +1,8 @@
+"use client";
 import React from "react";
-import { AiFillExclamationCircle, AiOutlineCheck } from "react-icons/ai";
+import { CldVideoPlayer } from "next-cloudinary";
+import "next-cloudinary/dist/cld-video-player.css";
+import { AiFillExclamationCircle } from "react-icons/ai";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
 
 const Overview = () => {
@@ -61,9 +64,9 @@ const FishStall = () => {
         </div>
       </div>
 
-      <div className="border border-b-[0.5px] border-white/40 w-[48rem] my-20" />
+      <div className="border border-b-[0.5px] border-white/40 w-auto my-20" />
 
-      <div className="w-full px-14 mx-4 mb-24 text-left flex flex-col md:flex-row items-center">
+      <div className="w-full px-14 mx-4 text-left flex flex-col md:flex-row items-center">
         <div className="md:w-3/5 md:pr-16">
           <img
             src={"./static/imgs/final/four.jpeg"}
@@ -125,6 +128,12 @@ const HandiCraft = () => {
             HandiCraft
           </h2>
         </div>
+        <p className="text-lg text-gray-500 font-semibold mb-8">
+          Feel free to join us for a day of{" "}
+          <span className="text-white">creativity</span> and{" "}
+          <span className="text-white">environmental </span>
+          healing with our community crafting event!
+        </p>
         <div className="md:w-3/5 md:pr-16">
           <img
             src="https://www.cityandguildsartschool.ac.uk/wp-content/uploads/2018/10/City-Guilds-of-London-Art-School-London-Craft-Week-2022-Carving-Competition-1546x1024.jpg"
@@ -132,7 +141,7 @@ const HandiCraft = () => {
             alt="crafts image"
           />
         </div>
-        <div className="border border-b-[0.5px] border-white/40 w-[32rem] my-20" />
+        <div className="border border-b-[0.5px] border-white/40 w-[16rem] md:w-[32rem] my-20" />
         <div className="w-[80%] flex flex-col md:flex-row">
           <div className="md:w-3/5 md:pr-16">
             <img
@@ -143,12 +152,6 @@ const HandiCraft = () => {
           </div>
 
           <div className="md:w-2/5">
-            <p className="text-lg text-gray-500 font-semibold mb-8">
-              Feel free to join us for a day of{" "}
-              <span className="text-white">creativity</span> and{" "}
-              <span className="text-white">environmental </span>
-              healing with our community crafting event!
-            </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-6">
               Our goal
             </h2>
@@ -158,7 +161,6 @@ const HandiCraft = () => {
               cleaner environment. Our focus? Creating vibrant fish models using
               repurposed materials and fake trash objects!
             </p>
-
           </div>
         </div>
       </div>
@@ -170,7 +172,7 @@ const ShortClip = () => {
   return (
     <section className="bg-black/70 text-white mb-20 py-12 px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-32">
       {/* Short video */}
-      <div className="w-full mx-4 mb-24 max-w-4xl text-left">
+      <div className="w-full flex flex-col justify-center items-center mx-4 mb-24 max-w-4xl text-left">
         <div className="w-full">
           <small className="text-[#2c9891] text-base font-bold mb-[-5px]">
             Explore our Artefact
@@ -183,7 +185,19 @@ const ShortClip = () => {
             create created will be set on display for others to interact with.
           </p>
         </div>
-        <div className="w-full h-80 bg-gray-800 my-8 border border-white rounded-md text-center"></div>
+
+        <CldVideoPlayer
+          width={1080}
+          height={607}
+          className="my-8"
+          src="GrandChallenge 37/cslqewkz6ro0srro4v0j"
+          transformation={{
+            crop: "fill",
+            gravity: "center",
+            width: 1080,
+            height: 607,
+          }}
+        />
       </div>
     </section>
   );
@@ -206,10 +220,8 @@ const Home = () => {
       <div className="flex items-center justify-center bg-four bg-cover bg-right md:bg-center bg-fixed bg-no-repeat">
         <Overview />
       </div>
-      <div className="w-full py-24 flex flex-col items-center justify-center">
-        <FishStall />
-        <HandiCraft />
-      </div>
+      <FishStall />
+      <HandiCraft />
       <div className="flex items-center justify-center">
         <ShortClip />
       </div>
