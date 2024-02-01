@@ -31,7 +31,7 @@ export default function Navbar() {
             </li>
             <li className="px-4 my-2 cursor-pointer hover:scale-105 transition-all duration-200  hover:text-white">
               <a href="/about" className="">
-                Who are we?
+                Join us
               </a>
             </li>
           </ul>
@@ -65,7 +65,7 @@ export default function Navbar() {
                     <a href="/">Home</a>
                   </li>
                   <li className="text-sm bg-black cursor-pointer px-2 py-4 mx-2 mb-4 text-center transition-all duration-200">
-                    <a href="/about">Who are we?</a>
+                    <a href="/about">Join us</a>
                   </li>
                 </ul>
               </div>

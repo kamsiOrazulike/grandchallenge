@@ -36,7 +36,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="relative bg-[#292E36] bottom-0 right-100 w-full md:flex-row md:flex-nowrap md:justify-start flex items-center p-4 z-40">
+      <footer className="relative bg-[#292E36] bottom-0 right-100 w-full md:flex-row md:flex-nowrap md:justify-start flex items-center p-4 z-20">
         <div>
           <div
             className={`text-white transition-all duration-150 font-light text-xs mx-auto px-4 py-2 `}

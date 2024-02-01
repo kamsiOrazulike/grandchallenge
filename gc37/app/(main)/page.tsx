@@ -4,6 +4,7 @@ import { CldVideoPlayer } from "next-cloudinary";
 import "next-cloudinary/dist/cld-video-player.css";
 import { AiFillExclamationCircle } from "react-icons/ai";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import ArrowToTop from "./components/arrowtotop";
 
 const Overview = () => {
   return (
@@ -206,7 +207,7 @@ const ShortClip = () => {
 const Home = () => {
   return (
     <>
-      <div className="flex items-center justify-center h-screen bg-four bg-cover bg-right md:bg-center bg-fixed bg-no-repeat">
+      <div id="top" className="flex items-center justify-center h-screen bg-four bg-cover bg-right md:bg-center bg-fixed bg-no-repeat">
         <div className="lg:max-w-lg text-center">
           <p className="text-base font-bold leading-7 text-gray-300">
             Grand Challenge 23/24 - Group 37
@@ -225,6 +226,7 @@ const Home = () => {
       <div className="flex items-center justify-center">
         <ShortClip />
       </div>
+      <ArrowToTop />
     </>
   );
 };

@@ -31,7 +31,7 @@ const ArrowToTop = () => {
           smooth={true}
           offset={-500}
           duration={500}
-          className="to-top fixed bottom-8 right-8 bg-gray-700 rounded-full cursor-pointer p-2 text-white font-light text-xl transition-all duration-150"
+          className="to-top fixed bottom-8 right-8 bg-transparent border border-white rounded-full cursor-pointer p-2 text-white font-light text-xl transition-all duration-150 z-40"
         >
           <AiOutlineArrowUp />
         </LinkScroll>
