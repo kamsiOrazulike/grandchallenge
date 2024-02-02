@@ -224,13 +224,13 @@ const Home = () => {
     <>
       <div
         id="top"
-        className="flex items-center justify-center h-screen bg-three bg-contain md:bg-cover bg-right md:bg-center bg-fixed bg-repeat-y"
+        className="flex items-center justify-center h-screen bg-one bg-contain md:bg-cover bg-right md:bg-center bg-fixed bg-repeat-y"
       >
-        <div className="lg:max-w-lg text-center">
-          <p className="text-base font-bold leading-7 text-gray-300 bg-black px-4 py-2">
+        <div className="lg:max-w-lg text-center bg-black/40 p-4">
+          <p className="text-base font-bold leading-7 text-gray-300 px-4">
             Grand Challenge 23/24 - Group 37
           </p>
-          <h1 className="mt-2 mb-4 text-5xl font-bold tracking-tight sm:text-6xl">
+          <h1 className="mb-4 text-5xl font-bold tracking-tight sm:text-6xl">
             Ripple Rescue
           </h1>
           <FaRegArrowAltCircleDown className="text-3xl animate-pulse mx-auto" />
