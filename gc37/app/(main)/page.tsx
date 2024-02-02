@@ -8,7 +8,7 @@ import ArrowToTop from "./components/arrowtotop";
 
 const Overview = () => {
   return (
-    <section className="bg-black/70 text-white mb-20 py-12 px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-32">
+    <section className="bg-black/70 text-white py-32 px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-32">
       <div className="mx-auto max-w-4xl text-left flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 md:pr-8">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
@@ -42,7 +42,7 @@ const FishStall = () => {
   return (
     <section className="bg-black/70 text-white mb-20 py-12 px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-32">
       {/* Concept one */}
-      <div className="w-full px-14 mx-4 mb-24 text-left flex flex-col md:flex-row items-center">
+      <div className="w-full px-14 mx-4 mb-24 text-left flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-2/5 md:pr-16">
           <small className="text-[#2c9891] text-base font-bold mb-[-5px]">
             Concept One: The Pop-up Stall
@@ -82,7 +82,7 @@ const FishStall = () => {
 
       <div className="border border-b-[0.5px] border-white/40 w-auto my-20" />
 
-      <div className="w-full px-14 mx-4 text-left flex flex-col md:flex-row items-center">
+      <div className="w-full px-14 mx-4 text-left flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-3/5 md:pr-16">
           <img
             src={"./static/imgs/final/four.jpeg"}
@@ -135,7 +135,7 @@ const HandiCraft = () => {
   return (
     <section className="bg-black/70 text-white mb-20 py-12 px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-32">
       {/* Concept two */}
-      <div className="w-full text-center flex flex-col items-center">
+      <div className="w-full text-center flex flex-col items-center justify-center">
         <div className="w-[80%]">
           <small className="text-[#2c9891] text-base font-bold mb-[-5px]">
             Concept Two: Crafts workshop
@@ -205,7 +205,7 @@ const ShortClip = () => {
         <CldVideoPlayer
           width={1080}
           height={607}
-          className="my-8"
+          className="my-8 mx-auto"
           src="GrandChallenge 37/cslqewkz6ro0srro4v0j"
           transformation={{
             crop: "fill",
@@ -224,19 +224,19 @@ const Home = () => {
     <>
       <div
         id="top"
-        className="flex items-center justify-center h-screen bg-four bg-cover bg-right md:bg-center bg-fixed bg-no-repeat"
+        className="flex items-center justify-center h-screen bg-three bg-contain md:bg-cover bg-right md:bg-center bg-fixed bg-repeat-y"
       >
         <div className="lg:max-w-lg text-center">
-          <p className="text-base font-bold leading-7 text-gray-300">
+          <p className="text-base font-bold leading-7 text-gray-300 bg-black px-4 py-2">
             Grand Challenge 23/24 - Group 37
           </p>
-          <h1 className="mt-2 text-5xl font-bold tracking-tight sm:text-6xl">
-            Ripple Rescue <sup className="text-sm text-gray-300">(RR)</sup>
+          <h1 className="mt-2 mb-4 text-5xl font-bold tracking-tight sm:text-6xl">
+            Ripple Rescue
           </h1>
           <FaRegArrowAltCircleDown className="text-3xl animate-pulse mx-auto" />
         </div>
       </div>
-      <div className="flex items-center justify-center bg-four bg-cover bg-right md:bg-center bg-fixed bg-no-repeat">
+      <div className="flex items-center justify-center bg-two bg-cover bg-right md:bg-center bg-fixed bg-no-repeat">
         <Overview />
       </div>
       <FishStall />
