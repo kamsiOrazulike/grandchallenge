@@ -12,7 +12,7 @@ export default function About() {
       </Head>
 
       <div className="flex flex-col md:flex-row items-center justify-center h-screen bg-black">
-        <div className="mx-auto max-w-4xl text-center">
+        <div className="mx-auto text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             Who are we?
           </h2>
