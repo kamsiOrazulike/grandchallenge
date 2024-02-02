@@ -19,6 +19,7 @@ const config: Config = {
           "four":"url('/static/imgs/final/four.jpeg')",
           "five":"url('/static/imgs/final/five.jpeg')",
           "visit":"url('/static/imgs/visit.jpg')",
+          "installation":"url('/static/imgs/installation.jpg')",
         "sewage":
           "url('https://www.greenpeace.org.uk/wp-content/uploads/2022/09/sewage-outflow-scaled.jpeg')",
         "news": "url('https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706313600&semt=ais')",

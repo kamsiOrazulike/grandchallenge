@@ -58,8 +58,8 @@ const FishStall = () => {
         </div>
         <div className="md:w-3/5 relative">
           <img
-            src={"./static/imgs/final/three.jpeg"}
-            className="w-full mt-32 border border-white rounded-md"
+            src={"./static/imgs/installation.jpg"}
+            className="w-full mt-32 rounded-md"
             alt="fish"
           />
           <img
@@ -78,6 +78,10 @@ const FishStall = () => {
             alt="fish"
           />
         </div>
+        <p className="text-lg text-gray-500 font-semibold mt-4">
+          The installation would be made available in the local area of Sutton.
+          We will be sure to let you know once we've got approval to set up!
+        </p>
       </div>
 
       <div className="border border-b-[0.5px] border-white/40 w-auto my-20" />
