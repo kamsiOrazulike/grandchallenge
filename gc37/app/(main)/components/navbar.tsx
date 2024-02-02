@@ -36,12 +36,12 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="w-full bg-black/40 md:hidden">
+        <div className="w-full bg-black md:hidden">
           <div className="flex flex-row items-center justify-end">
             <div className="flex-row justify-between align-middle items-center">
               <a
                 href="/project"
-                className="uppercase text-xl text-white/40 px-4 py-3"
+                className="uppercase text-xl text-white/80 px-4 py-3"
               >
                 Workshop
               </a>

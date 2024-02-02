@@ -56,32 +56,25 @@ const FishStall = () => {
             create will be set on display for others to interact with.
           </p>
         </div>
-        <div className="md:w-3/5 relative">
-          <img
-            src={"./static/imgs/installation.jpg"}
-            className="w-full mt-32 rounded-md"
-            alt="fish"
-          />
-          <img
-            src={"./static/imgs/final/one.jpeg"}
-            className="absolute top-0 left-0 w-1/3"
-            alt="fish"
-          />
-          <img
-            src={"./static/imgs/final/four.jpeg"}
-            className="absolute top-0 left-1/3 w-1/3"
-            alt="fish"
-          />
-          <img
-            src={"./static/imgs/final/six.jpeg"}
-            className="absolute top-0 left-2/3 w-1/3"
-            alt="fish"
-          />
+        <div className="w-full flex flex-col relative">
+          <CldVideoPlayer
+            width={1080}
+            height={607}
+            className="my-8 mx-auto rounded-md"
+            src="GrandChallenge 37/zdc3z396c8e3qjor9mfl"
+            transformation={{
+              crop: "fill",
+              gravity: "center",
+              width: 1080,
+              height: 607,
+            }}
+          />{" "}
+          <p className="text-lg text-gray-500 font-semibold mt-4">
+            The installation would be made available in the local area of
+            Sutton. We will be sure to let you know once we've got approval to
+            set up!
+          </p>
         </div>
-        <p className="text-lg text-gray-500 font-semibold mt-4">
-          The installation would be made available in the local area of Sutton.
-          We will be sure to let you know once we've got approval to set up!
-        </p>
       </div>
 
       <div className="border border-b-[0.5px] border-white/40 w-auto my-20" />
