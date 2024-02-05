@@ -193,10 +193,6 @@ const ShortClip = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-6">
             A Short Clip.
           </h2>
-          <p className="text-lg text-gray-500 font-semibold">
-            We designed a quick way to set up stalls where the fish models we
-            create created will be set on display for others to interact with.
-          </p>
         </div>
 
         <CldVideoPlayer
